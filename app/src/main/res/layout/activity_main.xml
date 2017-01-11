@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img1"
+        android:scaleType="centerCrop"
+        android:alpha="0.5"/>
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It's very difficult to start companies. It can be quite painful. That's probably non-encouraging."
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="But think of it this way, if you need inspiring words, don't do it."
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:layout_below="@id/line1"
+            android:alpha="2.0"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Elon Musk"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+
+</RelativeLayout>
